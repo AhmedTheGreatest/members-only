@@ -1,0 +1,15 @@
+<h1>Posts</h1>
+
+<ul id="posts">
+  <% @posts.each do |post| %>
+    <li class="post">
+      <div class="title"><%= post.title %></div>
+      <% if current_user %>
+        <div class="author">By <%= post.user.username %></div>
+      <% end %>
+      <br>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New post", new_post_path %>
