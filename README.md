@@ -1,24 +1,4 @@
-# README
+# Members Only!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A simple project made using Ruby on Rails and the Devise Gem for Authentication in The Odin Project's [Members Only!](https://www.theodinproject.com/lessons/ruby-on-rails-members-only) Project.
+Only signed in users can create posts and view the post authors.
